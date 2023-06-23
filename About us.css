@@ -1,0 +1,132 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  height: 300px;
+  width: 100%;
+  background-color: aqua;
+}
+.img-1{
+  height: 300px;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 4em;
+ 
+}
+
+main {
+  padding: 30px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+h6{
+  font-size: 3rem;
+  margin-bottom: 40px;
+  color:rgb(2, 126, 243);
+  text-align: center;
+}
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.team-member img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.testimonial {
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.testimonial p:first-of-type {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.testimonial p:last-of-type {
+  font-weight: bold;
+}
+
+.div-all{
+  height: 200px;
+  width: 100%;
+ background-image: url(footer.png);
+ background-repeat: no-repeat;
+ background-size: 100%;
+.div-1{
+  height: 200px;
+  width: 33.33%;
+
+  float: left;
+
+}
+.p-1{
+  padding-top: 70px;
+}
+.div-2{
+  height: 200px;
+  width: 33.33%;
+ 
+  float: right;
+
+}
+.div-3{
+  height: 200px;
+  width: 33.33%;
+  margin: 0 auto;
+}
+.h-1{
+  text-align: center;
+  padding: 30px;
+}
+
+.social-media {
+  
+  text-align: center;
+  margin-top: 30%;
+
+  
+}
+
+.social-media h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  
+}
+
+.social-media a {
+
+  margin-bottom: 10px;
+ 
+}
+
+.social-media img {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+ 
+}
